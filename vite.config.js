@@ -21,13 +21,13 @@ export default defineConfig({
         start_url: "/",
         icons: [
           {
-            src: "public/icons/atom192.png",
+            src: "/icons/atom192.png",
             sizes: "192x192",
             type: "image/png",
             purpose: "any maskable",
           },
           {
-            src: "public/icons/atom512.png",
+            src: "/icons/atom512.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable",
