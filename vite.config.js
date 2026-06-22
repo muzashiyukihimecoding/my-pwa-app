@@ -12,7 +12,7 @@ export default defineConfig({
       manifest: {
         name: "TaskFlow - PWA Manager",
         short_name: "TaskFlow",
-        description: "Aplikasi manajemen tugas offline-ready",
+        description: "Aplikasi Manajemen Tugas Offline dengan Vite + PWA",
         theme_color: "#6C63FF",
         background_color: "#ffffff",
         display: "standalone",
@@ -24,13 +24,26 @@ export default defineConfig({
             src: "/icons/atom192.png",
             sizes: "192x192",
             type: "image/png",
-            purpose: "any maskable",
+            purpose: "any",
           },
           {
             src: "/icons/atom512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable",
+            purpose: "any",
+          },
+        ],
+        screenshots: [
+          {
+            src: "/screenshots/desktop-ss.png",
+            sizes: "1920x1080",
+            type: "image/png",
+            form_factor: "wide",
+          },
+          {
+            src: "/screenshots/mobile-ss.png",
+            sizes: "720x1600",
+            type: "image/png",
           },
         ],
       },
