@@ -42,7 +42,7 @@ export default defineConfig({
           },
           {
             src: "/screenshots/mobile-ss.png",
-            sizes: "720x1600",
+            sizes: "334x742",
             type: "image/png",
           },
         ],
